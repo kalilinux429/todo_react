@@ -1,0 +1,85 @@
+.input{
+    outline: none;
+    border: 0px;
+    height: 40px;
+    border-radius: 10px 0px 0px 10px;
+    box-sizing:border-box
+}
+
+.btn{
+    outline: none;
+    border: 0px;
+    height: 41px;
+    background: #4862F4;
+    color: white;
+    font-size: 13px;
+    width: 75px;
+    box-sizing: border-box;
+    border-radius: 0px 15px 15px 0px;
+    font-weight:600px;
+    background:#FF4500;
+}
+li{
+    font-family:sans-serif,Helvetica;
+   
+    position: relative;
+    background: white;
+    padding: 10px;
+    list-style-type: none;
+    width: 300px;
+    margin: 7px;
+    display: inline-block;
+    width: 270px;
+    }
+
+    img{
+        position:absolute;
+        cursor: pointer;
+        right: 14px;
+        color: white;
+        height:20px;
+
+    }
+
+    h1{
+            
+            color: white;
+                text-align: center;
+                background: orangered;
+                width: 300px;
+                margin: 0 auto;
+            
+    }
+   
+
+    .todo-container {
+        width: 300px; /* Adjust this width as needed */
+      }
+      
+      .todo-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; /* Adds space between items */
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+      }
+      
+      .todo-list li {
+        flex: 1 1 100px; /* Allows items to grow and shrink, but each starts at 100px width */
+        padding: 10px;
+        background-color: #f0f0f0;
+        text-align: center;
+        border-radius: 5px;
+      }
+
+      .input-wrapper{
+        margin: 25px auto;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+      
+      
